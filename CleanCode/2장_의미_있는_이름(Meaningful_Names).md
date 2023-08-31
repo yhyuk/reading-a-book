@@ -86,7 +86,7 @@ else 1 = 01;
 ### 3. 의미 있게 구분해라.
 읽는 사람이 차이를 알도록 이름을 지어야한다.
 - 예시1)
-```java
+```html
 productInfo vs productData
 getActiveAccount() vs getActiveAccountInfo()
 moneyAmount vs money
@@ -98,13 +98,13 @@ customerInfo vs customer
 
 ### 4. 인코딩을 피하라.
 - 예시1) 헝가리식 표현법
-```java
+```html
 phoneString, nameString, moneyLong
 ```
 변수명에 타입이 들어가면 타입이 변경되어도 이름이 바뀌지 않기 때문에 착오를 일으킬 수 있다.
 
 - 예시2) 인터페이스 클래스와 구현체 클래스
-```java
+```html
 ShapeFactory (interface 클래스)
         
 IShapeFactory : X
